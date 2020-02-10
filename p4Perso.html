@@ -2,20 +2,34 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href=" p4Perso.css">
-		<script src="JQUERY-3.4.1.js"></script>
-		<script src="p4Perso.js"></script>
+		<link rel="stylesheet" type="text/css" href="public/css/p4Perso.css">
+		<script src="public/js/JQUERY-3.4.1.js"></script>
+		<script src="public/js/p4Perso.js"></script>
 		<title>PROJET PUISSANCE 4</title>
 	</head>
+
 	<body>
-		<h1>PUISSANCE 4</h1>
+		<div class="container-fluid boxCentrale">
+			
+			<div class="titre">
+				<h1>PUISSANCE 4</h1>
+			</div>
+
+			<div class="container">
+				<div>
+					<h1 class="joueur1">JOUEUR 1</h1><p class="score">SCORE:</p>
+				</div>
+				
+				<div>
+					<h1 class="joueur2">JOUEUR 2</h1><p class="score">SCORE:</p>
+				</div>
+			</div>
 
 <!-- LA DIV VA DEFINIR LA STRUCTURE DU JEU - ON VA UTILISER SON ID POUR LE CIBLER -->
-	<div id="game"></div>
+			<div id="game"></div>
 
 <!-- LE BUTTON POUR REDEMARRER LE JEU EN REVENANT A LA GRILLE VIDE -->
-	<button id="restart">Relancer</button>
-	<button id="annuleLast" type="button">Annuler</button>
-			
+			<button id="restart">Relancer</button>
+		</div>
 	</body>
 </html> 
